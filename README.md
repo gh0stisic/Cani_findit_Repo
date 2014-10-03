@@ -1,8 +1,8 @@
 Cani_findit
 ============
 
-NAME: Cani_findit.ps1
 AUTHOR: gh0stisic (Guillo)
+
 DATE: 10/1/2014
 
 KEYWORDS: Windows, PowerShell, file, find, extension, search, directory
