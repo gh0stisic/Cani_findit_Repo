@@ -9,6 +9,14 @@ KEYWORDS: windows, PowerShell, file, find, extension, search, directory
 COMMENTS: This script allows you to search an entire drive or a specific directory for a file(s) by name or extension.
 
 #>
+#setting the window parameters
+$qbsize = $Host.UI.RawUI.BufferSize
+$qbsize.Width = 140
+$Host.UI.RawUI.BufferSize = $qbsize
+$qsize = $Host.UI.RawUI.WindowSize
+$qsize.Width = 140
+$qsize.Height = 40
+$Host.UI.RawUI.WindowSize = $qsize
 
 "`n"
 write-Host "---------------------------------------------" -ForegroundColor Blue
