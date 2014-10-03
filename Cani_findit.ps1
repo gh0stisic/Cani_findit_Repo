@@ -1,7 +1,13 @@
 <#
-Cani_findit - search for files on a system by providing file path and file name.
-Created by gh0stisic on 10/1/14.
-Work in progress
+
+NAME: Cani_findit.ps1
+AUTHOR: gh0stisic (Guillo)
+DATE: 10/1/2014
+
+KEYWORDS: windows, PowerShell, file, find, extension, search, directory
+
+COMMENTS: This script allows you to search an entire drive or a specific directory for a file(s) by name or extension.
+
 #>
 
 "`n"
@@ -14,6 +20,6 @@ write-Host "---------------------------------------------" -ForegroundColor Blue
 
 Get-ChildItem -Recurse -Force $filePath -ErrorAction SilentlyContinue | Where-Object { ($_.PSIsContainer -eq $false) -and  ( $_.Name -like "*$fileName*") } | Select-Object Name,Directory| Format-Table -AutoSize *
 
-write-Host "---Thanks for using Cani_findit---" -ForegroundColor Red
+write-Host "---I hope you found what you were looking for.---" -ForegroundColor White
 
-# end script
+# End Script
