@@ -1,10 +1,17 @@
-Cani_findit
+Cani_findit3.1.ps1
 ============
 
 AUTHOR: gh0stisic (Guillo)
 
-DATE: 10/1/2014
+CREATION DATE: 10/1/2014 (OLD_Cani_findit.ps1)
+
+UPDATED VERSION: Cani_findit3.1.ps1 (10/7/2014)
 
 KEYWORDS: Windows, PowerShell, file, find, extension, search, directory
 
 This script allows you search an entire drive or a specific directory for a file(s) by name or extension.
+
+In order for script to run properly - you must run the following command in PowerShell:
+  >Set-ExecutionPolicy Unrestricted
+  
+CONTRIBUTORS: seanwpaul
