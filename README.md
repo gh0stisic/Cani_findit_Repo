@@ -9,9 +9,9 @@ UPDATED VERSION: Cani_findit3.1.ps1 (10/7/2014)
 
 KEYWORDS: Windows, PowerShell, file, find, extension, search, directory
 
-This script allows you search an entire drive or a specific directory for a file(s) by name or extension.
+This script allows you to search an entire drive or a specific directory for malicious file(s) by name or extension.
 
 In order for script to run properly - you must run the following command in PowerShell:
-  >Set-ExecutionPolicy Unrestricted
+  >set-executionpolicy remotesigned
   
 CONTRIBUTORS: seanwpaul
